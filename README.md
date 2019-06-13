@@ -29,3 +29,11 @@ Languages:
 	C
 	JavaScript
 ```
+## Lists
+
+To access an item in a list we use index notation starting at index 0. Furthermore, index -1 asks Python to give us the last item in a given list
+
+```
+bicycles = ['trek', 'cannondale', 'redline', 'specialized']
+print(bicycles[-1])
+```
