@@ -1,4 +1,4 @@
-# Adding
+'''Adding'''
 # motorcycles = ['honda', 'yamaha', 'suzuki']
 # print(motorcycles)
 #
@@ -21,7 +21,7 @@
 # motorcycles.insert(0, 'ducati')
 # print(motorcycles)
 
-# Removing
+'''Removing'''
 # motorcycles = ['honda', 'yamaha', 'suzuki']
 # print(motorcycles)
 #
@@ -35,7 +35,21 @@
 # print(motorcycles)
 # print(popped_motorcycle)
 
-motorcycles = ['honda', 'yamaha', 'suzuki']
+# motorcycles = ['honda', 'yamaha', 'suzuki']
+#
+# first_owned = motorcycles.pop(0)
+# print("The first motorcycle I owned was a " + first_owned.title() + ".")
 
-first_owned = motorcycles.pop(0)
-print("The first motorcycle I owned was a " + first_owned.title() + ".")
+'''Removing and item by the value'''
+motorcycles = ['honda', 'yamaha', 'suzuki', 'ducati']
+print(motorcycles)
+
+# motorcycles.remove('ducati') # figure out where ducati appears and remove the element
+# print(motorcycles)
+
+# Add a reson for removing it
+
+# too_expensive = 'ducati'
+# motorcycles.remove(too_expensive)
+# print(motorcycles)
+# print("\nA " + too_expensive.title() + " is too expensive for me.")
